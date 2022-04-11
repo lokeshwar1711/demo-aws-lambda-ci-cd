@@ -13,6 +13,7 @@ Resources:
       MemorySize: 128
       Timeout: 10
       Tracing: Active
+      AutoPublishAlias: live
       DeploymentPreference:
         Enabled: true
         Type: Canary10Percent10Minutes 
