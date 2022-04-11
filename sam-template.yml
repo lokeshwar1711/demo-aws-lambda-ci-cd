@@ -13,3 +13,6 @@ Resources:
       MemorySize: 128
       Timeout: 10
       Tracing: Active
+      DeploymentPreference:
+        Enabled: true
+        Type: Canary10Percent10Minutes 
